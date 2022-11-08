@@ -3,28 +3,41 @@ body {
 }
 header{
     text-align: center;
+    border: 3px solid black;
+}
+header > h1{
+    border: 3px solid black;
+}
+header > p{
+    border: 3px solid black;
 }
 main {
     display: flex;
     width: 75%;
     margin-left: 10%;
+    border: 3px solid rgb(13, 224, 31);
 }
 aside {
     width: 30%;
     margin
+    border: 3px solid rgb(28, 10, 221);
+}
+section {
+    border: 3px solid rgb(221, 10, 10);
 }
 aside > nav > ul{
     list-style: none;
     display: inline;
 }
 aside > nav > ul > li{
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 2%;
     margin: 20px;
 }
 
 .artmedio{
     display: flex;
+    border: 3px solid rgb(202, 10, 151);
 }
 .Imge {
     display: flex;
@@ -33,6 +46,7 @@ aside > nav > ul > li{
 }
 .divCentro {
     text-align: center;
+    border: 3px solid rgb(220, 93, 93);
 }
 
 .img {
